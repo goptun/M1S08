@@ -1,0 +1,114 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+/* nav */
+.logo {
+  height: 7vh;
+}
+
+#titulo-logo {
+  padding: 0;
+  font-size: medium;
+  width: 50%;
+}
+
+nav a:hover,
+nav button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+/* card */
+h6.heart {
+  color: rgb(168, 9, 9);
+}
+
+h6.heart:hover {
+  color: red;
+  transform: scale(1.02);
+  transition: transform 0.3s;
+}
+
+h6.heart i:hover {
+  color: red;
+  transform: scale(1.02);
+  transition: transform 0.3s;
+  box-shadow: 7px -7px 49px 0px rgba(240, 36, 9, 0.88);
+}
+
+.card-body img:hover,
+.card-body button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+#card-body img {
+  height: 200px;
+  width: 200px;
+}
+
+/* localizacao */
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* formulario de contato */
+button[type="submit"]:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+button {
+  border-color: #5b51b8; /* Define a cor do contorno do botão */
+  color: #5b51b8; /* Define a cor do texto do botão */
+  background-color: transparent; /* Remove a cor de fundo padrão do botão */
+}
+
+/* sobre nos */
+.foto-empresa img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+.historia {
+  text-align: justify;
+}
+.midias-sociais {
+  color: aqua;
+}
+
+main {
+  margin-top: 8vh;
+}
+
+.custom-btn,
+.navbar-toggler-icon {
+  border-color: #5b51b8; /* Define a cor do contorno do botão */
+  color: #5b51b8; /* Define a cor do texto do botão */
+  background-color: transparent; /* Remove a cor de fundo padrão do botão */
+}
+.custom-btn:hover {
+  border-color: #ffff;
+  color: #fff;
+  background-color: #5b51b8;
+}
+
+.expandido #navbarsExample11 {
+  display: flex !important;
+}
+
+.custom-btn2,
+.navbar-toggler-icon {
+  border-color: #5b51b8; /* Define a cor do contorno do botão */
+  color: #5b51b8; /* Define a cor do texto do botão */
+  background-color: transparent; /* Remove a cor de fundo padrão do botão */
+}
+.custom-btn2:hover {
+  border-color: #ffff;
+  color: #fff;
+  background-color: #5b51b8;
+}
+
+.icon-color {
+  color: #5b51b8;
+}
